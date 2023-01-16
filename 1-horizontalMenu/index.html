@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Horizontal Menu</title>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,500,0,0" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav>
+        <div class="mobile">
+            <div class="header">
+                <div class="logo">Logo</div>
+                <div class="more">
+                    <button id="btn-more">
+                        <span class="material-symbols-outlined">menu</span>
+                    </button>
+                </div>
+            </div>
+            <div id="links" class="links collapsed">
+                <a href="#">Services</a>
+                <a href="#">Contact</a>
+                <a href="#">About</a>
+                <a href="#">Login</a>
+                <a href="#">Sign up</a>
+            </div>
+        </div>
+        <div class="desktop">
+            <div class="logo">Logo</div>
+            <div class="primary">
+                <a href="#">Services</a>
+                <a href="#">Contact</a>
+                <a href="#">About</a>
+            </div>
+            <div class="secondary full">
+                <a href="#">Login</a>
+                <a href="#">Sign up</a>
+            </div>
+            <div class="secondary small">
+                <a class="more" href="#">More</a>
+                <div class="submenu">
+                    <a href="#">Login</a>
+                    <a href="#">Sign up</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <script>
+        const btnMore = document.querySelector("#btn-more");
+        const links = document.querySelector("#links");
+
+        btnMore.addEventListener('click', (event) => {
+            links.classList.toggle('collapsed');
+        });
+    </script>
+</body>
+
+</html>

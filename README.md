@@ -10,3 +10,4 @@ This repository contains 20 small projects with only html and css just for fun a
 4. Bell.
 5. Form.
 6. Progress Bar.
+7. Price Section.

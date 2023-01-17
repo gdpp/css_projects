@@ -24,3 +24,7 @@ This repository contains 20 small projects with only html and css just for fun a
 18. Css Slider
 19. Twitter Cards Style
 20. Wheather Widget
+
+### Live Demo
+
+Yon can see all the projects in this link: [live demo](https://gdpp.github.io/css_projects.gitthub.io/)

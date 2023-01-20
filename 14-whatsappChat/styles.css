@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.chat-container {
+    width: 700px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    height: 100vh;
+    background-color: #233f52;
+    gap: 10px;
+    padding: 30px;
+}
+
+.bubble-container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.bubble-container.left {
+    width: 50%;
+    margin-right: auto;
+    background-color: #202c33;
+}
+
+.bubble-container.right {
+    width: 50%;
+    margin-left: auto;
+    align-items: flex-end;
+    background-color: #005c4b;
+}
+
+.bubble-text {
+    color: #ffffff;
+}
+
+.chat-container .bubble-container .bubble .bubble-text > div {
+    position: relative;
+    padding: 8px;
+    border-radius: 5px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.bubble-info {
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.7);
+    padding: 5px 10px;
+    text-align: right;
+    width: 100px;
+}

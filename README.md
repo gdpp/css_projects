@@ -27,4 +27,4 @@ This repository contains 20 small projects with only html and css just for fun a
 
 ### Live Demo
 
-Yon can see all the projects in this link: [live demo](https://gdpp.github.io/css_projects.gitthub.io/){:target="\_blank"}
+Yon can see all the projects in this link: [live demo](https://gdpp.github.io/css_projects.gitthub.io/)

@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #3b429f;
+    font-family: 'Lato', sans-serif;
+}
+
+.upload-container {
+    margin: 100px auto;
+    width: 500px;
+    text-align: center;
+    background-color: #f4f7f5;
+    border-radius: 5px;
+    padding: 50px 30px;
+}
+
+.upload-container > .title {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.upload-container .description {
+    color: #747572;
+}
+
+.drag-drop {
+    border: dashed 3px #747572;
+    border-radius: 5px;
+    padding: 60px 30px;
+    margin: 20px 0;
+    line-height: 1.5;
+    display: flex;
+    flex-direction: column;
+    font-weight: 700;
+    color: #747572;
+    gap: 10px;
+}
+
+.icon i {
+    color: #3b429f80;
+}
+
+.btn {
+    padding: 15px;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: #8378e3;
+    color: #f4f7f5;
+    border: none;
+    border-radius: 5px;
+    min-width: 200px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+.btn:hover {
+    background-color: #3b429f;
+}
+
+.title-section {
+    text-align: left;
+    color: #747572;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+.uploaded-files {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.file {
+    border: solid 1px #cccccc;
+    border-radius: 5px;
+    text-align: left;
+    display: flex;
+    padding: 5px;
+    justify-content: space-between;
+    align-items: center;
+    transition: box-shadow 0.3s ease-in-out;
+    gap: 10px;
+}
+
+.file:hover {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.file-icon {
+    width: 48px;
+}
+
+.file-icon img {
+    width: 48px;
+}
+
+.file-title {
+    flex: 1;
+}
+
+.file-name {
+    display: block;
+    padding-bottom: 5px;
+}
+
+.size {
+    color: #747572;
+    font-size: 10px;
+}
+
+.progress {
+    height: 5px;
+    width: 100%;
+    background-color: #747572;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.progress-60 {
+    background-color: #20bf55;
+    height: 5px;
+    width: 60%;
+    border-radius: 4px;
+}
+
+.actions button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.2s ease-in-out;
+}
+
+.actions button:hover {
+    background-color: #747572;
+}
